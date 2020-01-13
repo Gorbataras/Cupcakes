@@ -1,4 +1,12 @@
 <?php
+/*
+ *name: Taras Gorbachevskiy
+ *date: January 13th, 2020
+ *URL: http://tgorbachevksiy.greenriverdev.com/IT328/Cupcakes/confirmation.php
+ *program description :
+ * Confirmation page for cupcakes ordering form.
+*/
+
 //Turn on error reporting
 ini_set('display_errors', 1);
 error_reporting(E_ALL);

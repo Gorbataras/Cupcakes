@@ -1,4 +1,12 @@
 <?php
+/*
+ *name: Taras Gorbachevskiy
+ *date: January 13th, 2020
+ *URL: http://tgorbachevksiy.greenriverdev.com/IT328/Cupcakes/
+ *program description :
+ * Simple ordering form for cupcakes.
+*/
+
 //Turn on error reporting
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
