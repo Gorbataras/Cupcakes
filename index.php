@@ -14,7 +14,7 @@ error_reporting(E_ALL);
     <title>Cupcake Fundraiser</title>
 </head>
 <body>
-<form action="#" method="post" id="cupcakeForm">
+<form action="./confirmation.php" method="post" id="cupcakeForm">
     <h1>Cupcake Fundraiser</h1>
 
     <label for="name">Please Input Your Name: </label> <br>
@@ -40,10 +40,9 @@ error_reporting(E_ALL);
         echo "<input type='checkbox' name='$key' value='$value'> $value <br>";
     }
 
-    echo "<br><button id='order' name='order'>Order</button>";
-
     ?>
-    
+
+    <br><button id='order' name='order' type='submit'>Order</button>
 
 </form>
 
